@@ -1,0 +1,131 @@
+@EjemploDeAutomatizacionAPIs
+Característica: Automatización de APIs
+  Como un estudiante de escuela
+  Quiero redactar y automatizar APIs
+  Para obtener valores y respuestas de las solicitudes enviadas
+
+  @EjemploDeAutomatizacionAPIs @Restful-Booker @CrearTokenDinamicoHappyPath
+  Escenario: Crear Token dinámico correctamente                          [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:11[0m
+    [32mDado [0m[32mque configuro el body del servicio: "[0m[32m[1mcrearToken[0m[32m"[0m                [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mY [0m[32mconfiguro las cabeceras[0m                                            [90m# APIStepDefinition.configuroLasCabeceras(DataTable)[0m
+    [32mCuando [0m[32mejecuto el servicio con la configuracion del body y cabeceras[0m [90m# APIStepDefinition.ejecutoElServicioConLaConfiguracionDelBodyYCabeceras(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m                 [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                                [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @EjemploDeAutomatizacionAPIs @Restful-Booker @CrearTokenDinamicoUnHappyPath
+  Escenario: Crear Token dinámico incorrectamente                        [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:27[0m
+    [32mDado [0m[32mque configuro el body del servicio: "[0m[32m[1mcrearToken[0m[32m"[0m                [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mY [0m[32mconfiguro las cabeceras[0m                                            [90m# APIStepDefinition.configuroLasCabeceras(DataTable)[0m
+    [32mCuando [0m[32mejecuto el servicio con la configuracion del body y cabeceras[0m [90m# APIStepDefinition.ejecutoElServicioConLaConfiguracionDelBodyYCabeceras(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m404[0m[32m"[0m                 [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                                [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @EjemploDeAutomatizacionAPIs @Restfull-Booker @ObtenerIDLibrosHappyPath
+  Escenario: Obtener ID's de libros correctamente        [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:43[0m
+    [32mCuando [0m[32mejecuto el servicio sin configuraciones[0m       [90m# APIStepDefinition.ejecutoElServicioSinConfiguraciones(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @EjemploDeAutomatizacionAPIs @Restfull-Booker @ObtenerIDLibrosUnHappyPath
+  Escenario: ObtenerID's de Libros incorrectamente       [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:51[0m
+    [32mCuando [0m[32mejecuto el servicio sin configuraciones[0m       [90m# APIStepDefinition.ejecutoElServicioSinConfiguraciones(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m500[0m[32m"[0m [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @Restfull-booker @ObtenerLibroPorIDHappyPath
+  Esquema del escenario: Obtener libro por un ID en específico [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:60[0m
+    [36mCuando ejecuto el servicio sin configuraciones[0m
+    [36mEntonces valido que el codigo de respuesta sea "200"[0m
+    [36mY guardo la respuesta de la ejecucion[0m
+
+    Ejemplos: 
+
+  @EjemploDeAutomatizacionAPIs @Restfull-booker @ObtenerLibroPorIDHappyPath
+  Esquema del escenario: Obtener libro por un ID en específico [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:68[0m
+    [32mCuando [0m[32mejecuto el servicio sin configuraciones[0m             [90m# APIStepDefinition.ejecutoElServicioSinConfiguraciones(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m       [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                      [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @EjemploDeAutomatizacionAPIs @Restfull-booker @ObtenerLibroPorIDHappyPath
+  Esquema del escenario: Obtener libro por un ID en específico [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:69[0m
+    [32mCuando [0m[32mejecuto el servicio sin configuraciones[0m             [90m# APIStepDefinition.ejecutoElServicioSinConfiguraciones(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m       [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                      [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @EjemploDeAutomatizacionAPIs @Restfull-booker @ObtenerLibroPorIDHappyPath
+  Esquema del escenario: Obtener libro por un ID en específico [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:70[0m
+    [32mCuando [0m[32mejecuto el servicio sin configuraciones[0m             [90m# APIStepDefinition.ejecutoElServicioSinConfiguraciones(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m       [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                      [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @Restfull-booker @ObtenerLibroPorIDUnHappyPath
+  Esquema del escenario: Obtener libro por un ID en específico unhappy path [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:73[0m
+    [36mCuando ejecuto el servicio sin configuraciones[0m
+    [36mEntonces valido que el codigo de respuesta sea "404"[0m
+    [36mY guardo la respuesta de la ejecucion[0m
+
+    Ejemplos: 
+
+  @EjemploDeAutomatizacionAPIs @Restfull-booker @ObtenerLibroPorIDUnHappyPath
+  Esquema del escenario: Obtener libro por un ID en específico unhappy path [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:81[0m
+    [32mCuando [0m[32mejecuto el servicio sin configuraciones[0m                          [90m# APIStepDefinition.ejecutoElServicioSinConfiguraciones(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m404[0m[32m"[0m                    [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                                   [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @Restful-Booker @CrearLibroHappyPath
+  Esquema del escenario: Crear libro correctamente [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:87[0m
+    [36mDado que configuro el body del servicio: "crearLibro"[0m
+    [36mY configuro las cabeceras[0m
+    [36mCuando ejecuto el servicio con la configuracion del body y cabeceras[0m
+    [36mEntonces valido que el codigo de respuesta sea "200"[0m
+    [36mY guardo la respuesta de la ejecucion[0m
+
+    Ejemplos: 
+
+  @EjemploDeAutomatizacionAPIs @Restful-Booker @CrearLibroHappyPath
+  Esquema del escenario: Crear libro correctamente                       [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:107[0m
+    [32mDado [0m[32mque configuro el body del servicio: "[0m[32m[1mcrearLibro[0m[32m"[0m                [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mY [0m[32mconfiguro las cabeceras[0m                                            [90m# APIStepDefinition.configuroLasCabeceras(DataTable)[0m
+    [32mCuando [0m[32mejecuto el servicio con la configuracion del body y cabeceras[0m [90m# APIStepDefinition.ejecutoElServicioConLaConfiguracionDelBodyYCabeceras(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m                 [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                                [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @EjemploDeAutomatizacionAPIs @Restful-Booker @CrearLibroHappyPath
+  Esquema del escenario: Crear libro correctamente                       [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:108[0m
+    [32mDado [0m[32mque configuro el body del servicio: "[0m[32m[1mcrearLibro[0m[32m"[0m                [90m# APIStepDefinition.configuroElBodyDelServicio(String,DataTable)[0m
+    [32mY [0m[32mconfiguro las cabeceras[0m                                            [90m# APIStepDefinition.configuroLasCabeceras(DataTable)[0m
+    [32mCuando [0m[32mejecuto el servicio con la configuracion del body y cabeceras[0m [90m# APIStepDefinition.ejecutoElServicioConLaConfiguracionDelBodyYCabeceras(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m200[0m[32m"[0m                 [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                                [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @Restfull-booker @EliminarUnLibroPorIDHappyPath
+  Esquema del escenario: Eliminar libro por un ID especifico happy path [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:116[0m
+    [36mCuando configuro las cabeceras[0m
+    [36mY ejecuto el servicio con la configuracion de las cabeceras[0m
+    [36mEntonces valido que el codigo de respuesta sea "201"[0m
+    [36mY guardo la respuesta de la ejecucion[0m
+
+    Ejemplos: 
+
+  @EjemploDeAutomatizacionAPIs @Restfull-booker @EliminarUnLibroPorIDHappyPath
+  Esquema del escenario: Eliminar libro por un ID especifico happy path [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:129[0m
+    [32mCuando [0m[32mconfiguro las cabeceras[0m                                      [90m# APIStepDefinition.configuroLasCabeceras(DataTable)[0m
+    [32mY [0m[32mejecuto el servicio con la configuracion de las cabeceras[0m         [90m# APIStepDefinition.ejecutoElServicioConLaConfiguracionDeLasCabeceras(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m201[0m[32m"[0m                [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                               [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m
+
+  @Restfull-booker @EliminarUnLibroPorIDUnHappyPath
+  Esquema del escenario: Eliminar libro por un ID especifico unhappy path [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:133[0m
+    [36mCuando configuro las cabeceras[0m
+    [36mY ejecuto el servicio con la configuracion de las cabeceras[0m
+    [36mEntonces valido que el codigo de respuesta sea "403"[0m
+    [36mY guardo la respuesta de la ejecucion[0m
+
+    Ejemplos: 
+
+  @EjemploDeAutomatizacionAPIs @Restfull-booker @EliminarUnLibroPorIDUnHappyPath
+  Esquema del escenario: Eliminar libro por un ID especifico unhappy path [90m# src/test/resources/features/ejemploAutomatizacionAPI.feature:148[0m
+    [32mCuando [0m[32mconfiguro las cabeceras[0m                                        [90m# APIStepDefinition.configuroLasCabeceras(DataTable)[0m
+    [32mY [0m[32mejecuto el servicio con la configuracion de las cabeceras[0m           [90m# APIStepDefinition.ejecutoElServicioConLaConfiguracionDeLasCabeceras(DataTable)[0m
+    [32mEntonces [0m[32mvalido que el codigo de respuesta sea "[0m[32m[1m403[0m[32m"[0m                  [90m# APIStepDefinition.validoQueElCodigoDeRespuestaSea(int)[0m
+    [32mY [0m[32mguardo la respuesta de la ejecucion[0m                                 [90m# APIStepDefinition.guardoLaRespuestaDeLaEjecucion()[0m

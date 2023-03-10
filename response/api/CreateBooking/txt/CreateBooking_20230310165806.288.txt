@@ -1,0 +1,14 @@
+{
+    "bookingid": 3972,
+    "booking": {
+        "firstname": "Maite",
+        "lastname": "Zavaleta",
+        "totalprice": 150,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2020-03-02",
+            "checkout": "2020-05-14"
+        },
+        "additionalneeds": "Love"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "bookingid": 2606,
+    "booking": {
+        "firstname": "luis",
+        "lastname": "velazquez",
+        "totalprice": 125,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2020-04-01",
+            "checkout": "2020-06-14"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}

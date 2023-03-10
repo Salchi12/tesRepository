@@ -1,0 +1,14 @@
+{
+    "bookingid": 11,
+    "booking": {
+        "firstname": "EJEMPLO",
+        "lastname": "API TEST",
+        "totalprice": 123,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2020-01-01",
+            "checkout": "2021-06-01"
+        },
+        "additionalneeds": "Breakfast"
+    }
+}

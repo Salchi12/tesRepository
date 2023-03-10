@@ -1,0 +1,11 @@
+{
+  "firstname": "$fName",
+  "lastname": "$lName",
+  "totalprice": "$price",
+  "depositpaid": "$paid",
+  "bookingdates": {
+    "checkin": "$dateIn",
+    "checkout": "$dateOut"
+  },
+  "additionalneeds": "$addNeeds"
+}

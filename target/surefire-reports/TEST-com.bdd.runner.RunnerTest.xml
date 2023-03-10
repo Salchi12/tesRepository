@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="58" failures="0" name="com.bdd.runner.RunnerTest" time="9.395" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.2.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Users\USER\.jdks\corretto-1.8.0_302\jre\bin"/>
+    <property name="java.vm.version" value="25.302-b08"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\codigosPrueba\ESCUELA EVERIS OCTUBRE"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\codigosPrueba\ESCUELA EVERIS OCTUBRE"/>
+    <property name="java.runtime.version" value="1.8.0_302-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\USER\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\USER\.jdks\corretto-1.8.0_302\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs;C:\Program Files\Java\jdk-17.0.4.1\bin;C:\Program Files\PowerShell\7\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USER\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\bin\Cmder;C:\Program Files\heroku\bin;C:\Users\USER\AppData\Local\GitHubDesktop\bin;C:\Users\USER\AppData\Roaming\npm;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.3\bin;;C:\Users\USER\AppData\Local\Programs\oh-my-posh\bin;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\USER"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="USER"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Users\USER\.jdks\corretto-1.8.0_302\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.2 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_302"/>
+    <property name="java.ext.dirs" value="C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\resources.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\rt.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\sunrsasign.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\jsse.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\jce.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\charsets.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\lib\jfr.jar;C:\Users\USER\.jdks\corretto-1.8.0_302\jre\classes"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Crear Token dinámico correctamente" name="que configuro el body del servicio: &quot;crearToken&quot;" time="0.146"/>
+  <testcase classname="Crear Token dinámico correctamente" name="configuro las cabeceras" time="0.01"/>
+  <testcase classname="Crear Token dinámico correctamente" name="ejecuto el servicio con la configuracion del body y cabeceras" time="2.869"/>
+  <testcase classname="Crear Token dinámico correctamente" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0.004"/>
+  <testcase classname="Crear Token dinámico correctamente" name="guardo la respuesta de la ejecucion" time="0.012"/>
+  <testcase classname="Crear Token dinámico correctamente" name="Crear Token dinámico correctamente" time="0.017"/>
+  <testcase classname="Crear Token dinámico incorrectamente" name="que configuro el body del servicio: &quot;crearToken&quot;" time="0.004"/>
+  <testcase classname="Crear Token dinámico incorrectamente" name="configuro las cabeceras" time="0.003"/>
+  <testcase classname="Crear Token dinámico incorrectamente" name="ejecuto el servicio con la configuracion del body y cabeceras" time="0.539"/>
+  <testcase classname="Crear Token dinámico incorrectamente" name="valido que el codigo de respuesta sea &quot;404&quot;" time="0.001"/>
+  <testcase classname="Crear Token dinámico incorrectamente" name="guardo la respuesta de la ejecucion" time="0.003"/>
+  <testcase classname="Crear Token dinámico incorrectamente" name="Crear Token dinámico incorrectamente" time="0.004"/>
+  <testcase classname="Obtener ID&apos;s de libros correctamente" name="ejecuto el servicio sin configuraciones" time="0.935"/>
+  <testcase classname="Obtener ID&apos;s de libros correctamente" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0"/>
+  <testcase classname="Obtener ID&apos;s de libros correctamente" name="guardo la respuesta de la ejecucion" time="0.063"/>
+  <testcase classname="Obtener ID&apos;s de libros correctamente" name="Obtener ID&apos;s de libros correctamente" time="0.064"/>
+  <testcase classname="ObtenerID&apos;s de Libros incorrectamente" name="ejecuto el servicio sin configuraciones" time="0.438"/>
+  <testcase classname="ObtenerID&apos;s de Libros incorrectamente" name="valido que el codigo de respuesta sea &quot;500&quot;" time="0.001"/>
+  <testcase classname="ObtenerID&apos;s de Libros incorrectamente" name="guardo la respuesta de la ejecucion" time="0.002"/>
+  <testcase classname="ObtenerID&apos;s de Libros incorrectamente" name="ObtenerID&apos;s de Libros incorrectamente" time="0.003"/>
+  <testcase classname="Obtener libro por un ID en específico" name="ejecuto el servicio sin configuraciones" time="0.537"/>
+  <testcase classname="Obtener libro por un ID en específico" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0.001"/>
+  <testcase classname="Obtener libro por un ID en específico" name="guardo la respuesta de la ejecucion" time="0.014"/>
+  <testcase classname="Obtener libro por un ID en específico" name="Obtener libro por un ID en específico" time="0.016"/>
+  <testcase classname="Obtener libro por un ID en específico" name="ejecuto el servicio sin configuraciones" time="0.516"/>
+  <testcase classname="Obtener libro por un ID en específico" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0.001"/>
+  <testcase classname="Obtener libro por un ID en específico" name="guardo la respuesta de la ejecucion" time="0.014"/>
+  <testcase classname="Obtener libro por un ID en específico" name="Obtener libro por un ID en específico" time="0.016"/>
+  <testcase classname="Obtener libro por un ID en específico" name="ejecuto el servicio sin configuraciones" time="0.507"/>
+  <testcase classname="Obtener libro por un ID en específico" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0.001"/>
+  <testcase classname="Obtener libro por un ID en específico" name="guardo la respuesta de la ejecucion" time="0.003"/>
+  <testcase classname="Obtener libro por un ID en específico" name="Obtener libro por un ID en específico" time="0.004"/>
+  <testcase classname="Obtener libro por un ID en específico unhappy path" name="ejecuto el servicio sin configuraciones" time="0.506"/>
+  <testcase classname="Obtener libro por un ID en específico unhappy path" name="valido que el codigo de respuesta sea &quot;404&quot;" time="0.001"/>
+  <testcase classname="Obtener libro por un ID en específico unhappy path" name="guardo la respuesta de la ejecucion" time="0.002"/>
+  <testcase classname="Obtener libro por un ID en específico unhappy path" name="Obtener libro por un ID en específico unhappy path" time="0.003"/>
+  <testcase classname="Crear libro correctamente" name="que configuro el body del servicio: &quot;crearLibro&quot;" time="0.004"/>
+  <testcase classname="Crear libro correctamente" name="configuro las cabeceras" time="0.003"/>
+  <testcase classname="Crear libro correctamente" name="ejecuto el servicio con la configuracion del body y cabeceras" time="0.51"/>
+  <testcase classname="Crear libro correctamente" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0.002"/>
+  <testcase classname="Crear libro correctamente" name="guardo la respuesta de la ejecucion" time="0.014"/>
+  <testcase classname="Crear libro correctamente" name="Crear libro correctamente" time="0.016"/>
+  <testcase classname="Crear libro correctamente" name="que configuro el body del servicio: &quot;crearLibro&quot;" time="0.004"/>
+  <testcase classname="Crear libro correctamente" name="configuro las cabeceras" time="0.001"/>
+  <testcase classname="Crear libro correctamente" name="ejecuto el servicio con la configuracion del body y cabeceras" time="0.503"/>
+  <testcase classname="Crear libro correctamente" name="valido que el codigo de respuesta sea &quot;200&quot;" time="0.001"/>
+  <testcase classname="Crear libro correctamente" name="guardo la respuesta de la ejecucion" time="0.004"/>
+  <testcase classname="Crear libro correctamente" name="Crear libro correctamente" time="0.005"/>
+  <testcase classname="Eliminar libro por un ID especifico happy path" name="configuro las cabeceras" time="0.002"/>
+  <testcase classname="Eliminar libro por un ID especifico happy path" name="ejecuto el servicio con la configuracion de las cabeceras" time="0.524"/>
+  <testcase classname="Eliminar libro por un ID especifico happy path" name="valido que el codigo de respuesta sea &quot;201&quot;" time="0.001"/>
+  <testcase classname="Eliminar libro por un ID especifico happy path" name="guardo la respuesta de la ejecucion" time="0.002"/>
+  <testcase classname="Eliminar libro por un ID especifico happy path" name="Eliminar libro por un ID especifico happy path" time="0.004"/>
+  <testcase classname="Eliminar libro por un ID especifico unhappy path" name="configuro las cabeceras" time="0.001"/>
+  <testcase classname="Eliminar libro por un ID especifico unhappy path" name="ejecuto el servicio con la configuracion de las cabeceras" time="0.506"/>
+  <testcase classname="Eliminar libro por un ID especifico unhappy path" name="valido que el codigo de respuesta sea &quot;403&quot;" time="0.001"/>
+  <testcase classname="Eliminar libro por un ID especifico unhappy path" name="guardo la respuesta de la ejecucion" time="0.013"/>
+  <testcase classname="Eliminar libro por un ID especifico unhappy path" name="Eliminar libro por un ID especifico unhappy path" time="0.014"/>
+</testsuite>
